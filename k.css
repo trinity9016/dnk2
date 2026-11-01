@@ -1,0 +1,55 @@
+.cen {
+    display: flex;
+    gap: 1%;
+}
+
+.car {
+    border: 1px solid black;
+    width:fit-content ;  
+    position: relative;
+
+}
+
+.car0 {
+    margin-left: 10%;
+    gap:2% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.car2 {
+    width: 250px;
+    cursor: pointer;
+}
+
+.car3 {
+    right: 1%;
+    top: 1%;
+    position: absolute;
+    color: white;
+    background-color:  rgb(5, 215, 5);
+}
+
+.car4 {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(5, 215, 5);
+    visibility: hidden;
+    position: absolute;
+    top: 60%;
+    right: 38%;
+}
+
+.car:hover .car4{
+    visibility: visible;
+}
+
+.cen1 {
+    text-decoration: line-through;
+}
+
+.cen3 {
+    padding-left: 5%;
+}
